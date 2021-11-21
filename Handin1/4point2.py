@@ -36,11 +36,11 @@ print(C_inverse, "\n")
 
 #Calculate the unsertanti in mass a, mass b 
 
-mass_a=C_inverse[0][0]
+mass_a=math.sqrt(C_inverse[0][0])
 
-mass_b=C_inverse[1][1]
+mass_b=math.sqrt(C_inverse[1][1])
 
-mass_a_minus_mass_b=C_inverse[0][1]
+mass_a_minus_mass_b=math.sqrt(C_inverse[0][1])
 
 print("The error in mass a is:")
 print(mass_a, "\n")
