@@ -5,9 +5,9 @@ n=1
 
 y_a=[1.20,1.15,2.0,1.17]
 
-y_best_a=1.2258585858585858
+y_best_a=1.1703644929333001
 
-sigma_k_a=0.7453559924999299
+sigma_k_a=0.007775849243739153
 
 sigma_k_aa=[0.20,0.10,0.8,0.7]
 Chi_sq_a=0
@@ -25,11 +25,11 @@ print(Chi_sq_a)
 #problem b)
 y_b=[20,25,18,16]
 
-y_best_b=21.6
+y_best_b=22.906040268456373
 
 Chi_sq_b=0
 
-sigma_k_b=0.29
+sigma_k_b=0.6577181208053691
 sigma_k_bb=[2,1,2,7]
 s_sq_b=0
 for s in range(len(y_b)):

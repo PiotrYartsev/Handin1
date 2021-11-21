@@ -8,9 +8,10 @@ def weigheted_sum(values, weights):
     values_sum = 0
     weights_sum = 0
     for i in range(len(values)):
-        values_sum += values[i] / weights[i]
-        weights_sum += 1/weights[i]
-    return values_sum / weights_sum
+        values_sum += values[i] / weights[i]**2
+        weights_sum += 1/weights[i]**2
+        k=values_sum/weights_sum
+    return(k)
 
 
 
@@ -18,9 +19,9 @@ def new_error(weights):
     sum=0
 
     for i in range(len(weights)):  
-        sum += (weights[i])
+        sum += 1/(weights[i]**2)
     
-    return(1/math.sqrt(sum))
+    return(1/sum)
 
 #problem a)
 
