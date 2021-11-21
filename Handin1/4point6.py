@@ -42,4 +42,7 @@ print("The value for C is:")
 print(C)
 print(Q_real)
 plt.plot(a_list,Q_real,'o')
+#add axis labels
+plt.xlabel('a')
+plt.ylabel('Q^2')
 plt.show()
